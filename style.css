@@ -10,11 +10,11 @@ button {
   width: 52%;
 }
 body {
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 7px;
+  height: 100vh;
 }
 
 .replayBtn {
