@@ -1,0 +1,22 @@
+button {
+  border: solid black 1px;
+  font-size: 4vw;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 3fr 3fr 3fr;
+  aspect-ratio: 1/1;
+  width: 52%;
+}
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.replayBtn {
+  padding: 17px;
+}
